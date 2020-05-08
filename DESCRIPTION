@@ -4,9 +4,10 @@ Version: 0.0.0.9000
 Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
 Depends: R (>= 3.6),
-         prime.total.effect  
+         prime.total.effect,
+         prime.test
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.0.9000
-Remotes: github::prime-project-uic/prime.total.effect, github::prime-project-uic/prime.test
+Remotes: github::prime-project-uic/prime.test, github::prime-project-uic/prime.total.effect
